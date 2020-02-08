@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <title>Image Classifier 🤘</title>
+  </head>
+  <body>
+    <div id="console"></div>
+    
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <button id="class-a">Add Image A</button>
+    <button id="class-b">Add Image B</button>
+    <button id="class-c">Add Image C</button>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
