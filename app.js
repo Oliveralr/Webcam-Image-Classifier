@@ -28,7 +28,8 @@ async function app() {
     document.getElementById('class-a').addEventListener('click', () => addExample(0));
     document.getElementById('class-b').addEventListener('click', () => addExample(1));
     document.getElementById('class-c').addEventListener('click', () => addExample(2));
-
+    
+    //infinite loop
     while(true){
         if(classifier.getNumClasses() > 0){
             const img = await webcam.capture();
