@@ -1,8 +1,9 @@
-//MODEL
+//MODEL -- KNN Based
 const classifier = knnClassifier.create();
 const webcamElement = document.getElementById('webcam');
 let net;
 
+//Promise Model Loader
 async function app() {
     console.log('Loading Mobile Net...');
 
